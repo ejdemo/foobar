@@ -1,3 +1,9 @@
+      stage('Shared Lib') {
+         steps {
+             helloWorld("Jenkins")
+         }
+      }
+
 pipeline {
   agent {
     docker {
